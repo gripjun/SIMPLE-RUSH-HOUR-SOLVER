@@ -1,0 +1,12 @@
+// BFS 8
+((red 2 3 2 h)(orange 2 1 1 h)(yellow 3 2 1 v)(purple 2 5 1 v)(green 3 2 4 v)(lightgreen 3 6 3 h)(silver 2 5 5 h)(lightblue 3 1 6 v))
+
+// BFS 37
+((red 2 3 1 h)(orange 2 1 4 v)(green 2 1 1 h)(yellow 3 1 3 v)(blue 2 1 5 h)(pink 2 4 1 v)(purple 2 4 2 h)(lightgreen 2 4 4 h)(lightblue 3 4 6 v)(silver 2 6 1 h)(brown 2 5 4 v))
+
+// BFS 5
+((red 2 3 4 h)(orange 3 1 4 h)(yellow 2 6 1 h)(pink 3 5 4 h)(lightblue 3 6 4 h)(green 3 2 6 v)(lightgreen 2 1 1 h)(blue 3 4 3 v)(purple 2 4 2 v))
+
+// NO SOLUTION
+((red 2 2 2 h)(silver 3 1 1 h)(orange 3 1 4 h)(green 3 6 1 h)(yellow 3 6 4 h)(blue 2 2 1 v)(pink 2 4 1 v)(purple 2 2 6 v)(black 2 4 6 v))
+
