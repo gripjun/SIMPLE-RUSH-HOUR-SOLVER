@@ -28,10 +28,9 @@ public class InputReader {
 
 		for (int i = 0; i < tokens.length; i++)
 			if (tokens[i].isEmpty() == false && i % 5 == 1) {
-				vehicles.add(new Vehicle(id, new String(tokens[i]), Integer.parseInt(tokens[i + 1]),
+				vehicles.add(new Vehicle(id++, new String(tokens[i]), Integer.parseInt(tokens[i + 1]),
 						Integer.parseInt(tokens[i + 2]) - 1, Integer.parseInt(tokens[i + 3]) - 1,
 						tokens[i + 4].charAt(0)));
-				id++;
 			}
 		
 		return vehicles;

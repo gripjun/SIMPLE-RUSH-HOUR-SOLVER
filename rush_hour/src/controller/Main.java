@@ -1,7 +1,6 @@
 package controller;
 
 import java.util.Map;
-
 import model.BreadthFS;
 import model.DepthFS;
 import model.InputReader;
@@ -39,9 +38,8 @@ public class Main {
 			System.out.println("--- TOTAL COST: " + path.getTotalCost());
 			System.out.println("--- PATH:\n");
 			System.out.println(path.getPath());
-		} else {
+		} else
 			System.out.println("--- NO SOLUTION :(");
-		}
 	}
 
 }

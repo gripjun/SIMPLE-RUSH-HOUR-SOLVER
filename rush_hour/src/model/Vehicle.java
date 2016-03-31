@@ -14,11 +14,11 @@ public class Vehicle {
 	private Position position;
 	private Direction direction;
 
-	public Vehicle(int id, String color, int length, int line, int column, char direction) {
+	public Vehicle(int id, String color, int length, int row, int column, char direction) {
 		this.id = id;
 		this.color = color;
 		this.length = length;
-		setPosition(line, column);
+		setPosition(row, column);
 		setDirection(direction);
 	}
 
@@ -50,8 +50,8 @@ public class Vehicle {
 		return position;
 	}
 
-	public void setPosition(int line, int column) {
-		position = new Position(line, column);
+	public void setPosition(int row, int column) {
+		position = new Position(row, column);
 	}
 
 	public void setDirection(char direction) {
